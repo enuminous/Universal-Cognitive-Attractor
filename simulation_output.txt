@@ -1,0 +1,5 @@
+Toy UCA convergence simulation
+initial mean pairwise distance = 2.233333
+terminal mean pairwise distance = 0.012703
+convergence score C(S) = 0.994312
+terminal states: [0.994312, 1.002844, 0.982936, 1.011376, 0.996587, 0.987486]

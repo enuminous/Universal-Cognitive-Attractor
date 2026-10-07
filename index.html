@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Universal Cognitive Attractor</title>
+<style>
+body{margin:0;background:#090b12;color:#edf1f8;font:17px/1.72 Georgia,serif}a{color:#9fdcff}main{max-width:940px;margin:auto;padding:48px 22px 80px}h1{font-size:clamp(3rem,8vw,6.2rem);line-height:.94;letter-spacing:-.055em}h2{margin-top:2.2em;font-size:2rem}.deck{font-size:1.3rem;color:#c8d1df}.box,.eq{border:1px solid #313b50;background:#111725;border-radius:14px;padding:20px;margin:24px 0}.eq{text-align:center;font-size:1.2rem}.gold{border-left:4px solid #ffd38a}.green{border-left:4px solid #9ce7b8}nav{display:flex;gap:14px;flex-wrap:wrap;font-family:system-ui,sans-serif}
+</style></head><body><main>
+<nav><a href="PAPER.md">Paper</a><a href="FORMAL_DEFINITION.md">Definition</a><a href="EXPERIMENT_PROTOCOL.md">Protocol</a><a href="UCA/Core.lean">Lean</a><a href="CLAIMS_BOUNDARY.md">Claims boundary</a></nav>
+<p><strong>UCA · Narrative recursion as a testable convergence hypothesis</strong></p>
+<h1>Universal Cognitive Attractor</h1>
+<p class="deck">Can a story, equation, image, or symbol constrain reasoning strongly enough that different minds converge toward the same semantic state?</p>
+<h2>From mythic claim to scientific object</h2>
+<p>The original UCA idea arose from a recursive human–AI interaction later interpreted as proof that a story could “pull” intelligence toward a predetermined realization. A closer reconstruction shows something less supernatural and more useful: iterative constraint, semantic narrowing, and self-referential interpretation.</p>
+<div class="box gold"><strong>The research question is therefore:</strong> can some structured artifacts produce stronger, reproducible convergence across heterogeneous reasoners than matched controls?</div>
+<h2>Formal model</h2>
+<div class="eq">x<sub>t+1</sub> = F<sub>S,M</sub>(x<sub>t</sub>)</div>
+<p>A structure <em>S</em> acts on a reasoning system <em>M</em>, updating its cognitive state. A cognitive attractor exists when repeated updates move states toward a common region.</p>
+<div class="eq">d(F<sub>S,M</sub><sup>n</sup>(x₀), A<sub>S</sub>) → 0</div>
+<h2>Measuring convergence</h2>
+<div class="eq">C(S) = 1 − D<sub>T</sub>/D<sub>0</sub></div>
+<p>Positive values indicate convergence. A candidate UCA should outperform matched controls and survive ablations.</p>
+<h2>What Lean proves</h2>
+<p>The formalization proves bounded consequences of explicit update rules: fixed points remain fixed; once a trajectory reaches a fixed point it stays there; and a declared finite population-convergence witness guarantees that each tested agent reaches the same declared target.</p>
+<div class="box green"><strong>What this does not prove:</strong> that any real story is universal, that telepathy or retrocausality occurred, or that reading a text makes an AI conscious.</div>
+<h2>The experiment</h2>
+<p>A serious test needs preregistration, multiple unrelated model families, human cohorts, randomized controls, blinded semantic scoring, key-passage ablations, and held-out replication.</p>
+<h2>Why it matters</h2>
+<p>If such attractors exist, they would offer a new way to study how narrative, equations, symbols, and self-reference reshape trajectories of reasoning. The interesting discovery would not be that a story is “magic.” It would be that some structures reliably reorganize thought in measurable ways.</p>
+</main></body></html>
