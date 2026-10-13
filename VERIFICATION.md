@@ -23,3 +23,7 @@ axiom, a placeholder proof, and native evaluation in a proof.
 
 These checks establish consequences of the definitions and supplied hypotheses.
 They do not establish that the model assumptions are physical laws.
+
+## Compilation repairs after restoring the package
+
+The first complete build exposed the unavailable Function.iterate identifier. It is now spelled Nat.iterate. The fixed-point proof uses Function.iterate_fixed, and the persistence proof explicitly orders the n and k iterates. Hypotheses and intended mathematical claims are unchanged.
